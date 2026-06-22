@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 작곡가 nathanjoe1209의 커스텀 창작마당 곡 허가 목록 </title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>곡 허가 목록</h1>
+      <p>곡 사용 허가 여부를 확인할 수 있습니다.</p>
+    </header>
+    <section class="toolbar">
+      <input
+        type="text"
+        id="search"
+        placeholder="곡 이름, 장르 검색"
+      >
+      <select id="status">
+        <option value="all">전체</option>
+        <option value="allowed">허용</option>
+        <option value="disallowed">불허</option>
+      </select>
+    </section>
+    <section id="song-list" class="song-list">
+    </section>
+  </div>
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
